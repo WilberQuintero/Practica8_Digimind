@@ -24,6 +24,7 @@
         android:text="what do you want to remember to do" />
 
     <EditText
+        android:id="@+id/et_task"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="take my pill"
@@ -49,6 +50,7 @@
                 />
 
             <CheckBox
+                android:id="@+id/checkMonday"
                 android:layout_width="wrap_content"
                 android:layout_marginEnd="30dp"
                 android:layout_height="wrap_content"/>
@@ -64,6 +66,7 @@
 
 
             <CheckBox
+                android:id="@+id/checkTuesday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="30dp" />
@@ -78,6 +81,7 @@
             />
 
         <CheckBox
+            android:id="@+id/checkWednesday"
             android:layout_width="wrap_content"
             android:layout_marginEnd="30dp"
             android:layout_height="wrap_content"/>
@@ -92,6 +96,7 @@
             />
 
         <CheckBox
+            android:id="@+id/checkThursday"
             android:layout_width="wrap_content"
             android:layout_marginEnd="30dp"
             android:layout_height="wrap_content"/>
@@ -106,6 +111,7 @@
                 />
 
             <CheckBox
+                android:id="@+id/checkFriday"
                 android:layout_width="wrap_content"
                 android:layout_marginEnd="30dp"
                 android:layout_height="wrap_content"/>
@@ -121,6 +127,7 @@
                 />
 
             <CheckBox
+                android:id="@+id/checkSaturday"
                 android:layout_width="wrap_content"
                 android:layout_marginEnd="30dp"
                 android:layout_height="wrap_content"/>
@@ -135,6 +142,7 @@
                 />
 
             <CheckBox
+                android:id="@+id/checkSunday"
                 android:layout_width="wrap_content"
                 android:layout_marginEnd="30dp"
                 android:layout_height="wrap_content"/>
@@ -150,11 +158,27 @@
         android:textColor="@color/colorAccent"/>
 
     <Button
+        android:id="@+id/btn_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="set time"
+        android:textColor="@color/Gray"
+        android:textAllCaps="false"
+        android:textSize="16sp"
         android:background="?android:attr/selectableItemBackground"
         />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DONE"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:background="@color/colorAccent"
+        />
+
 
 
 </LinearLayout>
