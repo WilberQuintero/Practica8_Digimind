@@ -1,2 +1,2 @@
-# Practica8_Digimind
-Digimind parte 1 HECHA
+# Practica8.1 Digimind 2
+Digimind parte 2 HECHA
